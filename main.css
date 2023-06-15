@@ -1,0 +1,69 @@
+*{
+   margin: 0;
+   padding: 0;
+/*can be applied to all of the html elements*/
+font-family: 'Roboto Mono', monospace;
+}
+/*BACKGROUND colors and images*/
+.header{
+   min-height: 10vh;
+   width: 100%;
+   background-position: center;
+   background-size: cover;
+   position: relative;
+   background-color: clear;
+}
+.h2{
+   min-height: 5vh;
+   width: 75%;
+   color: #8e8d8a;
+   position: relative;
+}
+
+.index-header{
+   width: 100%;
+   margin: auto;
+   text-align: center;
+   padding-top: 200px;
+   padding-bottom: 360px;
+   background-image: #eae7dc;
+   background-position: center;
+   background-size: cover;
+   position: relative;
+   color: #e85a4f;
+}
+
+/*this will align the different buttons (home, inventory, ect.)*/
+nav{
+   display: flex;
+   padding: 2% 6%;
+   justify-content: space-between;
+   align-items: center;
+}
+nav img{
+   width: 150px;
+}
+/*fixing the size of the logo*/
+.nav-links{
+   flex: 1;
+   text-align: center;
+}
+/*the ul and li are basically the list/buttons on the top of the page*/
+.nav-links ul li{
+   list-style: none;
+   display: inline-block;
+   padding: 8px 12px;
+   position: relative;
+}
+/*color and removing the underlining of buttons aka the animation :)*/
+.nav-links ul li a{
+   color: #e85a4f;
+   text-decoration: none;
+   font-size: 13px;
+}
+
+/*
+font-family: 'Roboto Mono', monospace;
+ */
+
+

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+        <!--to connect to the .css sheet in this case it will be index.css since there will be a different .css pae for each page so there can be easy clean up-->
+        <link rel="stylesheet" href="index.css">
+{%- include head.html -%}
+
+<body>
+
+  <div class="wrapper">
+    <header>
+      {%- include header.html -%}
+    </header>
+
+
+    <section>
+      {{ content }}
+    </section>
+
+  </div>
+</body>
+
+
+</html>
